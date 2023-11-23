@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&display=swap');
+
+header {
+	height: 47px;
+}
+
+a.admin-menu{
+	display: none;
+}
+div.cart-wrapper, div.user-dropdown-menu{
+	display: none;
+}
+
+.logo-id-header{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+}
+header .nav-link{
+    transition-property: all;
+	transition-duration: 255ms;
+}
+header .nav-link:hover{
+	box-shadow: var(--bs-box-shadow)!important;
+}
+.offcanvas{
+	--bs-offcanvas-width: 300px;
+}
+.dropdown .dropdown-menu{
+	right: 0 !important;
+	left: auto !important;
+	--bs-dropdown-spacer: 10px;
+}
+.shopping-cart-icon::after{
+    position: absolute;
+    border-radius: 10px;
+	height: 20px;
+	width: 20px;
+	background-color: red;
+	right: 9px;
+	bottom: 12px;
+	font-size: 13px;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+@media (max-width: 991.98px) {
+	header {
+	height: auto;
+	}
+	.dropdown .dropdown-menu{
+		right: auto !important;
+		left: auto !important;
+	}
+}
+
+

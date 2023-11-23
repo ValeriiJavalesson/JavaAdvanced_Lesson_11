@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+footer{
+	overflow-x: clip;
+}
+footer .first-line{
+	height: 54px;
+}
+.footer_space{
+	margin-top: 80px;
+}

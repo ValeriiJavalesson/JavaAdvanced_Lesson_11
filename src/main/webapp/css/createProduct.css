@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.product-form-container{
+	width:400px;
+}
+
+form.addProduct-form input{
+	width:80%;
+}
+
+.page-title{
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 900;
+}
+	

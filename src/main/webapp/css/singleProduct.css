@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.products-image{
+    height: 450px;
+    width: 380px;
+    background-color: #5a5a5a;
+    border-radius: 1em;
+}
